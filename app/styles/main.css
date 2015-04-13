@@ -1,13 +1,18 @@
+* {
+  margin: 0;
+}
 .browsehappy {
   margin: 0.2em 0;
-  background: #ccc;
+  background: #ffffff;
   color: #000;
   padding: 0.2em 0;
 }
 
 body {
-  font-family: Raleway;
+  font-family: Lato;
   padding: 0;
+  background-image: url("/images/boston-background.jpg");
+  background-size: 1920px 1080px;
 }
 #coming-soon {
   margin-right: auto;
@@ -22,11 +27,15 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-
+header, footer {
+  display: block;
+}
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
+  margin-bottom: 13px;
+  background-color: #11FFDF;
+  width: 100%;
+  position: fixed;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -35,14 +44,27 @@ body {
   line-height: 40px;
   padding-bottom: 19px;
 }
+div.navbar-header {
+  background-color: #11FFDF;
+}
+div.navbar {
+  background-color: #11FFDF;
+}
+.navbar-brand {
+  margin-left: 20px;
+}
 
 /* Custom page footer */
 .footer {
   padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+  color: #ffffff;
+  background-color: #11FFDF;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 50px;
 }
-
 .container-narrow > hr {
   margin: 30px 0;
 }
@@ -50,7 +72,10 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  position: relative;
 }
 .jumbotron .btn {
   font-size: 21px;
@@ -87,14 +112,18 @@ body {
     border-bottom: 0;
   }
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding-top: 15px;
+
+#welcome-container {
+  display: inline-block;
+  margin-top: 250px;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+  background-color: #ffffff;
+  border-radius: 5px;
   text-align: center;
-  height: 50px;
+  padding: 20px;
+  opacity: 0.8;
 }
-.navbar-brand {
-  /*margin-left: -100px;*/
+img.headshot {
+  border-radius: 200px;
 }
