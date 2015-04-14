@@ -24,16 +24,17 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <ng-include src="'views/partials/navbar.html'"></ng-include>
+<!--     <ng-include src="'views/partials/navbar.html'"></ng-include> -->
+    <ab-navbar></ab-navbar>
 
 
     <div class="container">
-    <div ng-view=""></div>
+        <div ng-view=""></div>
     </div>
 
-
-    <ng-include src="'views/partials/footer.html'"></ng-include>
-
+    <ab-footer></ab-footer>
+    <!-- <ng-include src="'views/partials/footer.html'"></ng-include>
+ -->
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
@@ -45,13 +46,22 @@
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <!-- app -->
-        <script src="scripts/app.js"></script>
-        <!-- controllers -->
-        <script src="scripts/controllers/mainCtrl.js"></script>
-        <script src="scripts/controllers/about.js"></script>
-        <script src="scripts/controllers/navbarCtrl.js"></script>
-        <script src="scripts/controllers/footerCtrl.js"></script>
+      <script src="scripts/app.js"></script>
+    <!-- routes -->
+    <script src="scripts/routes/Routes.js"></script>
+
+    <!-- controllers -->
+    <script src="scripts/controllers/MainController.js"></script>
+    <script src="scripts/controllers/HomeController.js"></script>
+    <script src="scripts/controllers/NavbarController.js"></script>
+    <script src="scripts/controllers/FooterController.js"></script>
+    <script src="scripts/controllers/AboutController.js"></script>
+    <script src="scripts/controllers/ContactController.js"></script>
+
+    <!-- directives  -->
+    <script src="scripts/directives/MainDirective.js"></script>
+    <script src="scripts/directives/NavbarDirective.js"></script>
+    <script src="scripts/directives/FooterDirective.js"></script>
         <!-- endbuild -->
 </body>
 </html>

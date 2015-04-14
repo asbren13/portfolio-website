@@ -113,9 +113,8 @@ div.navbar {
   }
 }
 
-#welcome-container {
-  display: inline-block;
-  margin-top: 250px;
+#home-container {
+  margin-top: 220px;
   margin-right: 0 auto;
   margin-left: 0 auto;
   background-color: #ffffff;
@@ -125,5 +124,31 @@ div.navbar {
   opacity: 0.8;
 }
 img.headshot {
+  border: 2px solid #ffffff;
   border-radius: 200px;
+  max-height: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  min-width: 200px;
+}
+#about-container, #form-container {
+  background-color: #ffffff;
+  margin-top: 50px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  border-radius: 10px;
+  padding-top: 10px;
+  text-align: center;
+  opacity: 0.9;
+}
+.connect-icons {
+  max-height: 50px;
+  max-width: 50px;
+}
+.connect-icon {
+  max-width: 60px;
+  max-height: 60px;
+}
+span.icon-bar:hover {
+  background-color: #11FFDF;
 }
