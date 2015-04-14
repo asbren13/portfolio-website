@@ -12,8 +12,8 @@ angular.module('personalPortfolioApp').config(['$routeProvider', function($route
     })
     .when('/contact',{
       templateUrl: 'views/contact.html',
-      controller: 'ContactController',
-      controllerAs: 'contactController'
+      controller: 'EmailController',
+      controllerAs: 'emailController'
     })
     .otherwise({
       redirectTo: '/'
