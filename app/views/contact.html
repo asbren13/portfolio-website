@@ -1,7 +1,7 @@
 <div class="container" id="form-container" ng-controller="EmailController as emailController">
   <h3>Send me an <a href="mailto:asbren13@gmail.com">e-mail</a> or reach out to me with the below form!</h3>
   <form id="contact-form" name="contactForm" ng-submit="emailController.sendEmail(emailController.email)">
-    <label> Name<input class="form-control" type="text"  placeholder="Name"></label><br>
+    <label> Name<input class="form-control" type="text"  placeholder="Name" ng-model="emailController.email.name"></label><br>
 
     <label> Email<input required id="email"  class="form-control" type="email" title="sender" placeholder="Email Address" ng-model="emailController.email.sender"></label><br>
     <label>Message<textarea required id="body" class="form-control" title="body" placeholder="Enter Your Message Here" ng-model="emailController.email.body"></textarea></label><br>
