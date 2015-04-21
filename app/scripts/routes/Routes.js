@@ -5,6 +5,11 @@ angular.module('personalPortfolioApp').config(['$routeProvider', function($route
       templateUrl: 'views/main.html',
       controller: 'HomeController'
     })
+   .when('/resume',{
+      templateUrl: 'views/resume.html',
+      controller: 'ResumeController',
+      controllerAs: 'resumeController'
+    })
     .when('/about',{
       templateUrl: 'views/about.html',
       controller: 'AboutController',
