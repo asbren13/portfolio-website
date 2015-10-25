@@ -237,6 +237,7 @@ div.card-action {
   border-top: 1px solid #ebebeb;
   padding: 20px;
   text-align: center;
+
 }
 .card-action a {
   text-align: center;
@@ -245,3 +246,11 @@ div.card-action {
   font-size: 20px;
   text-transform: uppercase;
 }
+@media only screen and (max-device-width: 736px) and (max-device-width: 480px){
+    div.card-large {
+      height: 600px !important;
+    }
+    div.action {
+      margin-top: 50%;
+    }
+  }
