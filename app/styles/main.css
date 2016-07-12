@@ -34,7 +34,7 @@ header, footer {
 /* Custom page header */
 .header {
   margin-bottom: 13px;
-  background-color: #11FFDF;
+  background-color: #333469;
   width: 100%;
   position: fixed;
 }
@@ -46,10 +46,10 @@ header, footer {
   padding-bottom: 19px;
 }
 div.navbar-header {
-  background-color: #11FFDF;
+  background-color: #333469;
 }
 div.navbar {
-  background-color: #11FFDF;
+  background-color: #333469;
 }
 .navbar-brand {
   margin-left: 20px;
@@ -62,7 +62,7 @@ div.navbar {
   height: 50px;
   width: 100%;
   color: #ffffff;
-  background-color: #11FFDF;
+  background-color: #333469;
   margin: 0 auto;
   text-align: center;
   padding-top: 15px;
@@ -147,10 +147,13 @@ div#about-container,
   border-radius: 5px;
   margin-right: 0 auto;
   margin-left: 0 auto;
-  min-height: 208px;
-  max-height: 208px;
+  height: 300px;
   /*display: block;*/
   padding: 20px;
+
+}
+div.#intro {
+  padding-top: 50px;
 }
 #about-container, #form-container {
   margin-top: 50px;
@@ -165,11 +168,11 @@ div#headshot {
   margin-left: 0;
   float: left;
   /*display: block;*/
-  padding: 0 .75rem;
+  padding-top: 15px;
 }
 img.headshot {
   max-width:  100%;
-  border-radius: 50%;
+  border-radius: 15px;
 }
 .connect-icons {
   max-height: 50px;
@@ -180,7 +183,7 @@ img.headshot {
   max-height: 60px;
 }
 span.icon-bar:hover {
-  background-color: #11FFDF;
+  background-color: #333469;
 }
 section#project-container {
   position: relative;
