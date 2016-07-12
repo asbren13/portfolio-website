@@ -154,6 +154,8 @@ div#about-container,
 }
 div#intro {
   padding-top: 50px;
+  width: 62%;
+  float: right;
 }
 #about-container, #form-container {
   margin-top: 50px;
