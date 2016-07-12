@@ -147,12 +147,12 @@ div#about-container,
   border-radius: 5px;
   margin-right: 0 auto;
   margin-left: 0 auto;
-  height: 300px;
+  height: 400px;
   /*display: block;*/
   padding: 20px;
 
 }
-div.#intro {
+div#intro {
   padding-top: 50px;
 }
 #about-container, #form-container {
@@ -164,7 +164,7 @@ div.#intro {
   text-align: center;
 }
 div#headshot {
-  width: 25%;
+  width: 35%;
   margin-left: 0;
   float: left;
   /*display: block;*/
